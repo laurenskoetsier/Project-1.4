@@ -1,9 +1,8 @@
+# @laurens Koetsier 
 #MEMO 3 codes 
 
-# @laurens Koetsier 
-
-
 #---PUNT-4----------------------------------------------------------------------------------------------------------------------------
+# code voor het maken van de x,t-grafiek van Massabeweging onder Ocillerende kracht F(t) + ingezoomde grafiek tijdsinterval 0.0-0.01s.
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -92,6 +91,7 @@ amplitude = np.max(np.abs(sol.y[0][amplitude_interval]))
 print(f"Amplitude in het tijdsinterval 0,09-0,1s: {amplitude:.6e} m")
 
 #---PUNT-6----------------------------------------------------------------------------------------------------------------------------
+# code voor het maken van de tuning-kromme.
 
 # Parameters
 k = 0.3820  # N/m
