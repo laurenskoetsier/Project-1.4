@@ -1,7 +1,10 @@
-# @laurens Koetsier 
 #MEMO 3 codes 
 
+# @laurens Koetsier 
+
+
 #---PUNT-4----------------------------------------------------------------------------------------------------------------------------
+
 # code voor het maken van de x,t-grafiek van Massabeweging onder Ocillerende kracht F(t) + ingezoomde grafiek tijdsinterval 0.0-0.01s.
 
 import numpy as np
@@ -182,10 +185,68 @@ plt.grid(True)
 plt.tight_layout()  
 plt.show()
 
+#---PUNT-8----------------------------------------------------------------------------------------------------------------------------
+# code voor de variatie van de b waarde, zelf *0.80 of *1.20 invullen bij b.
+
+# Gegeven parameters uit bestand
+k = 0.3820  # N/m
+m = 4.3e-9  # kg
+b = 8.1053e-7*(1.20) # kg/s
+Fmax = 60e-9  # N
+x_statisch = 1.5712e-7  # m
+
+# Resonantiefrequentie
+omega_0 = np.sqrt(k / m)
+
+# Tijd array
+tmax = 0.1  
+num_steps = 25000  
+t = np.linspace(0, tmax, num_steps)
+
+# Oscillerende kracht bij resonantie
+def driving_force(t):
+    return Fmax * np.cos(omega_0 * t)
+
+# Differentiaalvergelijking
+def mass_spring_damper(t, y):
+    x, v = y
+    dxdt = v
+    dvdt = (driving_force(t) - b * v - k * x) / m
+    return [dxdt, dvdt]
+
+# Beginvoorwaarden: x(0) = 0, v(0) = 0
+y0 = [0, 0]
+
+# Oplossen differentiaalvergelijking
+sol = solve_ivp(mass_spring_damper, [0, tmax], y0, t_eval=t, method='RK45')
+
+# Amplitude in het tijdsinterval 0,09-0,1s
+amplitude_interval = (sol.t >= 0.09) & (sol.t <= 0.1)
+amplitude = np.max(np.abs(sol.y[0][amplitude_interval]))
+print(f"Amplitude in het tijdsinterval 0,09-0,1s: {amplitude:.6e} m")
+
+# Berekening van de Q-factor
+Q = amplitude / x_statisch
+print(f"Q-factor: {Q:.2f}")
+
+# Bijgewerkte b-waarde met de berekende Q-factor
+b = omega_0 / Q
+
+# Frequentiebereik in Hz berekenen voor x-as
+f0 = omega_0 / (2 * np.pi)
+f = np.linspace(f0 * 0.9, f0 * 1.1, 1000)
+omega = 2 * np.pi * f
+
+# Berekening amplitude
+A = (Fmax / m) / np.sqrt((omega_0**2 - omega**2)**2 + (2 * b * omega)**2)
+
+# Berekening van de maximale amplitude en halve amplitude
+maximale_amplitude = max(A)
+halve_amplitude = maximale_amplitude / 2
+
+# Berekening van FWHM
+indices = np.where(A >= halve_amplitude)[0]
+FWHM = f[indices[-1]] - f[indices[0]]
+
 # Waardes worden geprint in terminal
-print("Maximale Amplitude:", maximale_amplitude)
-print("Halve Amplitude:", halve_amplitude)
-print("Frequentie bij Maximale Amplitude:", f[np.argmax(A)], "Hz")
-print("Frequentie bij FWHM Start:", f[indices[0]], "Hz")
-print("Frequentie bij FWHM Eind:", f[indices[-1]], "Hz")
-print("Resonantiefrequentie f0:", f0, "Hz")
+print("FWHM:", FWHM, "Hz")
