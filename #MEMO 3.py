@@ -3,7 +3,7 @@
 # @laurens Koetsier 
 
 
-#---PUNT-4----------------------------------------------------------------------------------------------------------------------------
+#---PUNT-4------------------------------------------------------------------------------------------------------
 
 # code voor het maken van de x,t-grafiek van Massabeweging onder Ocillerende kracht F(t) + ingezoomde grafiek tijdsinterval 0.0-0.01s.
 
@@ -20,6 +20,8 @@ Fmax = 60e-9  # N
 
 # Resonantiefrequentie
 omega_0 = np.sqrt(k / m)
+f_0 = omega_0 / (2 * np.pi)  # Hz
+print(f'Resonantiefrequentie (f_0): {f_0:.2f} Hz')
 
 # Tijd array
 tmax = 0.1  
@@ -85,15 +87,15 @@ fig.add_artist(con)
 plt.tight_layout()
 plt.show()
 
-#---PUNT-5----------------------------------------------------------------------------------------------------------------------------
+#---PUNT-5------------------------------------------------------------------------------------------------------
 
 #De waarde van de amplitude  wordt  in de terminal geprint
 
 amplitude_interval = (sol.t >= 0.09) & (sol.t <= 0.1)
 amplitude = np.max(np.abs(sol.y[0][amplitude_interval]))
-print(f"Amplitude in het tijdsinterval 0,09-0,1s: {amplitude:.6e} m")
+print(f"Amplitude na stabilisatie: {amplitude:.6e} m")
 
-#---PUNT-6----------------------------------------------------------------------------------------------------------------------------
+#---PUNT-6------------------------------------------------------------------------------------------------------
 # code voor het maken van de tuning-kromme.
 
 # Parameters
@@ -185,7 +187,7 @@ plt.grid(True)
 plt.tight_layout()  
 plt.show()
 
-#---PUNT-8----------------------------------------------------------------------------------------------------------------------------
+#---PUNT-8------------------------------------------------------------------------------------------------------
 # code voor de variatie van de b waarde, zelf *0.80 of *1.20 invullen bij b.
 
 # Gegeven parameters uit bestand
