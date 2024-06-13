@@ -1,53 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T14:35:21.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="JDRGTYTrLut9FQyhVbVS" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T15:53:12.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="EmCxne6eTDxUBupwCVDD" version="24.5.4" type="github">
   <diagram name="Pagina-1" id="s6tebHxt4fETLdoPo_5v">
-    <mxGraphModel dx="442" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="0" shadow="0">
+    <mxGraphModel dx="757" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="240" height="10" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-76" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=-90;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="435" y="51.25" width="45" height="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-15" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
-          <mxGeometry x="55" y="195" width="220" height="10" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-69" value="" style="whiteSpace=wrap;html=1;rotation=-90;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="197.5" width="305" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-16" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
-          <mxGeometry x="285" y="195" width="220" height="10" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-66" value="" style="whiteSpace=wrap;html=1;rotation=90;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-31.17" y="198.05" width="313.43" height="11.09" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="220" y="140" width="120" height="120" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-59" value="" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="400" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-20" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;" vertex="1" parent="1">
-          <mxGeometry x="318" y="220" width="22" height="20" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-71" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="320" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-22" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;" vertex="1" parent="1">
-          <mxGeometry x="318" y="160" width="22" height="20" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-75" value="" style="whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="100" width="20" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-23" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="218" y="220" width="22" height="20" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-61" value="" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="400" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-24" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="218" y="160" width="22" height="20" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-80" value="" style="whiteSpace=wrap;html=1;rotation=-90;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="192.5" width="205" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-25" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="304.5" y="104.5" width="49" height="20" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-72" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="320" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-27" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="204.5" y="104.5" width="49" height="20" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-81" value="" style="whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-30" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="302.25" y="276.75" width="53.5" height="20" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-83" value="" style="whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-31" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="200" y="276.75" width="53.5" height="20" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-84" value="" style="whiteSpace=wrap;html=1;rotation=-90;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="310" width="240" height="10" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-85" value="" style="whiteSpace=wrap;html=1;rotation=-90;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
-          <mxGeometry x="240" y="160" width="80" height="80" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-86" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="185" y="140" width="45" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-33" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="255" y="175" width="50" height="50" as="geometry" />
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-87" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=-90;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="47.5" width="45" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-88" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=-90;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="435" y="310" width="45" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni5LSi0HDRFxPiUFcQp5-89" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;rotation=-90;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="310" width="45" height="42.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
